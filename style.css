@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right bottom, #0f2027, #2c5364);
+  background-size: cover;
+  height: 96vh;
+  color: white;
+  text-align: center;
+}
+
+.friend {
+  background-color: #f7f7f7;
+  color: black;
+  border-radius: 10px;
+  width: 50%;
+  margin: 2rem auto;
+
+}
+
+.friend h3 {
+  text-transform: uppercase;
+  margin: 1rem;
+}
+
+.friend p {
+  margin: 1rem;
+}
